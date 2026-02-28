@@ -1,0 +1,11 @@
+[package]
+name = "simtem"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+egui_plot = "0.34"
+eframe = { version = "0.33", default-features = false, features = ["default_fonts", "wgpu", "wayland"] }
+wgpu = { version = "27", features = ["vulkan"] }
+memmap2 = "0.9"
+mimalloc = "0.1"
